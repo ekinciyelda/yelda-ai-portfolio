@@ -88,7 +88,7 @@
 
     .video-wrap video {
       width: 520px;
-      max-width: 100%;
+      max-height: 350px;
       margin: auto;
       display: block;
       border-radius: 14px;
@@ -230,15 +230,29 @@
 
     <section id="video">
       <h2 class="section-title">Video</h2>
-      <p class="section-text">An AI-generated video created using generative tools and AI-driven workflows.</p>
-      <div class="card video-wrap">
-        <video controls>
-          <source src="assets/video/sample-video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div class="card-content">
-          <h3>AI Video Project</h3>
-          <p class="small-label">Click play to watch the full video.</p>
+      <p class="section-text">AI-generated videos created using generative tools and AI-driven workflows.</p>
+    
+      <div class="grid">
+        <div class="card video-wrap">
+          <video controls>
+            <source src="assets/video/sample-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="card-content">
+            <h3>AI Video Project 01</h3>
+            <p class="small-label">Click play to watch the full video.</p>
+          </div>
+        </div>
+    
+        <div class="card video-wrap">
+          <video controls>
+            <source src="assets/video/sample-video-2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="card-content">
+            <h3>AI Video Project 02</h3>
+            <p class="small-label">Click play to watch the full video.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -387,5 +401,4 @@
     });
   </script>
 </body>
-
 </html>
